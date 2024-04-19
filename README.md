@@ -448,26 +448,43 @@ Also, the Top & Bottom 3 weights identified by the `Logistic Regression` Model w
 
 ## 8 - Recommendation
 ### 8.1 - Machine Learning
-lorem ipsum
+Based on our classification tree, It is recommended for telco companies to offer discount to customer who choose a two year contract as it has a negative relation with Churn and is fairly accurate in predicting Churn. Discount can also be offered to those who choose one year contract so more customers will be bound by the contract.
 
+In the mean time, in order to increase their customer retention level, companies can include features such as online backup and online security.
+
+Lastly, it was no surprise that contract term is most accurate in predicting Churn as this signifies this measures customer loyalty. Having a short contract term will provide them with the greatest convenience to change telco companies whenever a more attractive contract is shown to them.
+
+Companies can add in a time series to track the customer's information over time so as to increase the accuracy of the prediction and helping companies make more informed decisions and improve their business model. 
 <hr> 
 
 ### 8.2 - Additional Machine Learning
-lorem ipsum
+Use our Logistic Regression model to help predict the likelihood of customer churn based on current data. The Telco Company may consider giving vouchers or rebates to retain high-risk customers who are likely to churn.
+
+Also, the Telco Company should compare the following areas against other Telco Companies and aim to provide more attractive deals at competitive pricing:
+1) Monthly Charges
+2) Month-to-Month Contracts
+3) Fiber Optic Internet Services
+
+This is because these were the top metrics associated with customers who churn, meaning the Telco Company is losing out to its competitors.
+
+On the other hand, they should also note that they are doing very well in the following areas:
+1) Long Customer Tenure
+2) Two Year Contracts
+3) DSL Internet Services
 
 <hr>
 
 ## 9 - Reflection 
 ### 9.1 - Jonah 
-lorem ipsum
+This project enhanced my understanding of data analysis by bridging classroom theory and applying it to our project. Navigating through large datasets to identify characteristics influencing client retention was both difficult and enjoyable. It emphasized the importance of initiatives based on data in increasing corporate competitiveness and operational efficiency. This experience not only improved my analytical skills, but also sparked my curiosity in the real-world implications of data science.
 
 <hr>
 
 ### 9.2 - Jia Xuan
-lorem ipsum
+The project was more challenging than expected as it was much more in-depth compared to our lab sessions. Having a macro-to-micro view of the dataset allows us to understand the nuances of how each datatype influences customer churn. Our project demonstrates how data science can help businesses understand how to perform better in a competitive market, backed by quantitative data and logical reasoning.
 
 <hr>
 
 ### 9.3 - Lorayne 
-lorem ipsum
+This project has provided me with the opportunity to delve deeper into the telco industry and the features that customers look out for before signing a contract. I also have a deeper understanding of our these telco companies work. This project has allowed me to apply the various techniques taught to us to extract useful insights from the large volumes of data. From there, we can discover meaningful patterns and useful insights to support decision-making in the business world.
 
