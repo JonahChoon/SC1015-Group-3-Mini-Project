@@ -10,7 +10,7 @@ This Project is Done By: Jonah Choon, Lee Jia Xuan, Lorayne Lim
 - Machine Learning (Binary Tree Classification) [[Machine Learning](Jupyter%20Notebooks/2%20-%20Machine%20Learning.ipynb)]
 - Additional Machine Learning (Logistic Regression, K-Nearest Neighbours, Random Forest) [[Additional Machine Learning](Jupyter%20Notebooks/3%20-%20Additional%20Machine%20Learning%20(Logistic%20Regression,%20K%20Nearest%20Neighbours,%20Random%20Forest).ipynb)]
 - Recommendation
-- What We Learnt
+- What We Learnt [Full Reflection in: [Project Walkthrough.md](Project%20Walkthrough.md)]
 - Group Report [[Project Walkthrough.md](Project%20Walkthrough.md)]
 
 ## 2 - Problem Definition
