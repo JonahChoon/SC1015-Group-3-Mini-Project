@@ -50,13 +50,7 @@ There are 4 groups of information present:
 ## 5 - Exploratory Data Analysis (EDA)
 Exploratory Data Analysis aims to analyze datasets and summarize their main characteristics, using statistical graphics and other data visualization methods. 
 
-There are 4 groups of information present:
-1) Customer Information
-2) Services Data
-3) Contract and Payment Data
-4) Churn Status
-
-I plotted each Catagory against Churn, followed by a further analysis of the Numeric Values (Tenure, MonthlyCharges & TotalCharges) to view the characterstics and ended off with a Correlation to Churn with other Categories
+I Sorted the columns into 3 main section (User Information, Services Information and Contract & Payment Information) and plotted each Catagory against Churn, followed by a further analysis of the Numeric Values (Tenure, MonthlyCharges & TotalCharges) to view the characterstics and ended off with a Correlation to Churn with other Categories
 
 From there, I identified the top 3 most weighted category which were `Contract Month to Month`, `Online Security` and `Tech Support`.
 
