@@ -13,6 +13,8 @@ This Project is Done By: Jonah Choon, Lee Jia Xuan, Lorayne Lim
 - What We Learnt [Full Reflection in: [Project Walkthrough.md](Project%20Walkthrough.md)]
 - Group Report [[Project Walkthrough.md](Project%20Walkthrough.md)]
 
+<hr> 
+
 ## 2 - Problem Definition
 In today's fast-changing telecommunications industry, the battle for customer loyalty and retention has become increasingly fierce. Telcos are continually innovating and offering attractive deals to entice potential customers, leading to a growing concern around customer churn. Studies have shown acquiring a new customer can cost five to twenty-five times more than retaining an existing customer (Singh & Khan, 2018). Furthermore, increasing customer retention by 5% can increase profits from 25-95% (Gallo, 2014). Hence, high customer retention rates greatly impacts a telco's business. As the allure of competitive deals tempts customers to switch providers, it has become imperative to delve into the reasons behind this trend. Therefore, our aim is to uncover the motivations driving customers to switch telco companies and develop predictive models that can anticipate the likelihood of existing customers changing their provider. By gaining insights into these dynamics, telcos can proactively implement strategies to retain their customers before they consider switching.
 
@@ -28,6 +30,8 @@ In today's fast-changing telecommunications industry, the battle for customer lo
 - K-Nearest Neighbours
 - Random Forest 
 
+<hr> 
+
 ## 4 - Understanding the Dataset
 The dataset we will be using is from an IBM Sample Dataset for Telco Customer Churn, available on Kaggle (https://www.kaggle.com/blastchar/telco-customer-churn).
 
@@ -41,14 +45,24 @@ There are 4 groups of information present:
 3) Contract and Payment Data
 4) Churn Status
 
-### 5.1 - Data Preparation
-In the data preparation phase of our project, we ensured that the dataset was primed for analysis by meticulously cleaning and pre-processing the data. Initially, we scoured the dataset for any null values that could skew our analysis and predictive modeling. These null entries were carefully removed to maintain the integrity of the dataset. Subsequently, we converted all categorical variables that were labeled 'Yes' or 'No' into a binary format, with '1' representing 'Yes' and '0' signifying 'No'. This binary transformation is a crucial step, as it simplifies the dataset for our machine learning algorithms, allowing them to more effectively discern patterns and relationships within the data.
+<hr> 
 
-#### 5.1.1 - Cleaning (Remove all NULL Values)
-<center><img src="Images/NULLValue.png" alt="NULL Value"></center>
-As there are 11 NULL Entries in TotalCharges, those will be removed from the dataset
+## 5 - Exploratory Data Analysis (EDA)
+Exploratory Data Analysis aims to analyze datasets and summarize their main characteristics, using statistical graphics and other data visualization methods. 
 
-***************************************** Remaining portions to compress actions & findings in point form
+There are 4 groups of information present:
+1) Customer Information
+2) Services Data
+3) Contract and Payment Data
+4) Churn Status
+
+I plotted each Catagory against Churn, followed by a further analysis of the Numeric Values (Tenure, MonthlyCharges & TotalCharges) to view the characterstics and ended off with a Correlation to Churn with other Categories
+
+From there, I identified the top 3 most weighted category which were `Contract Month to Month`, `Online Security` and `Tech Support`.
+
+After Data Preparation, I ensured that the dataset was ready for analysis by meticulously cleaning and pre-processing the data.
+
+<hr>
 
 ## 6 - Machine Learning
 This ML model aims to identify which variables are most accurate in predicting whether a customer Churns. These variables are selected based on two aspects:
@@ -73,6 +87,8 @@ Each model's Confusion Matrix, ROC Curve and other accuracy metrics such as Accu
 Taking the accuracy metrics into consideration, Logistic Regression was the most accurate model, closely followed by Random Forest and K-Nearest Neighbours in last place.
 
 The Top and Bottom 3 weights identified by the Logistic Regression Model will be useful for the telco company to understand the profile of customers who churn.
+
+<hr> 
 
 ## 8 - Recommendation
 In conclusion, leveraging our Linear Regression model together with our Classification Tree empowers companies to accurately predict the variables within a contract that significantly influence customer contract renewals. By analyzing their extensive customer database and corresponding contracts, companies can pinpoint these crucial variables. Companies need to strike a balance between a variable's importance in preventing customer churn (as determined by Linear Regression) and its accuracy in predicting churn (as assessed by the classification tree). Additionally, this approach offers valuable insights into areas for contract improvement, guiding companies on how and where to refine their offers to achieve higher customer satisfaction and retention.
