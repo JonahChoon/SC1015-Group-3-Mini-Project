@@ -14,8 +14,6 @@ This Project is Done By: Jonah Choon, Lee Jia Xuan, Lorayne Lim
 - Group Report [[Project Walkthrough.md](Project%20Walkthrough.md)]
 
 ## 2 - Problem Definition
-In the fast-changing telco industry, customer retention is a rising issuing issue as competing telcos offer more attractive deals to lure potential customers. Hence, we wish to understand why customers switch telco companies and aim to predict the likelihood of existing customers changing their telco provider so that telcos can implement changes to retain customers before it is too late. 
-
 In today's fast-changing telecommunications industry, the battle for customer loyalty and retention has become increasingly fierce. Telcos are continually innovating and offering attractive deals to entice potential customers, leading to a growing concern around customer churn. Studies have shown acquiring a new customer can cost five to twenty-five times more than retaining an existing customer (Singh & Khan, 2018). Furthermore, increasing customer retention by 5% can increase profits from 25-95% (Gallo, 2014). Hence, high customer retention rates greatly impacts a telco's business. As the allure of competitive deals tempts customers to switch providers, it has become imperative to delve into the reasons behind this trend. Therefore, our aim is to uncover the motivations driving customers to switch telco companies and develop predictive models that can anticipate the likelihood of existing customers changing their provider. By gaining insights into these dynamics, telcos can proactively implement strategies to retain their customers before they consider switching.
 
 ## References
@@ -58,7 +56,9 @@ This ML model aims to identify which variables are most accurate in predicting w
 - Comparison 1: The top 3 variables that show the strongest positive and negative correlations with churn (based on Correlation graph)
 - Comparison 2: All variables (based on Downsampled dataset)
 
-Despite having similar classification accuracy in both scenarios, the model that incorporates all variables from the downsampled data is considered weaker due to its complexity in data visualization, which makes it challenging to isolate the essential variables for churn prediction. Therefore, classification trees which uses the variables' rankings in the correlation graph is more suitable in identifying a variable's accuracy in predicting whether a customer Churns.
+Despite having similar classification accuracy in both scenarios, the model that incorporates all variables from the downsampled data is considered weaker due to its complexity in data visualization, which makes it challenging to isolate the essential variables for churn prediction. 
+
+Therefore, classification trees which uses the variables' rankings in the correlation graph is more suitable in identifying a variable's accuracy in predicting whether a customer Churns.
 
 <hr>
 
