@@ -472,6 +472,9 @@ On the other hand, they should also note that they are doing very well in the fo
 2) Two Year Contracts
 3) DSL Internet Services
 
+### 8.3 Overall Recommendation:
+In conclusion, leveraging our Linear Regression model together with our classification tree empowers companies to accurately predict the  variables within a contract that significantly influence customer contract renewals. By analyzing their extensive customer database and corresponding contracts, companies can pinpoint these crucial variables. It is vital for companies to strike a balance between a variable's importance in preventing customer churn (as determined by Linear Regression) and its accuracy in predicting churn (as assessed by the classification tree). Additionally, this approach offers valuable insights into areas for contract improvement, guiding companies on how and where to refine their offers to achieved higher customer satisfaction and retention.
+
 <hr>
 
 ## 9 - Reflection 
