@@ -354,24 +354,24 @@ These are the output of the model based on train & test data.
 <img src="Images/AML_LR_Top.png" alt="Image" width="1200"/>
 
 **Accuracy Metrics:** \
-`Accuracy: 0.7593582887700535`\
-`Precision: 0.7587548638132295`\
-`Recall: 0.7942973523421588`\
-`F1 Score: 0.7761194029850746`\
-`Log Loss: 0.5052839502019649`\
-`ROC AUC: 0.8339525880259078`
+`Accuracy: 0.753`\
+`Precision: 0.731`\
+`Recall: 0.810`\
+`F1 Score: 0.768`\
+`Log Loss: 0.507`\
+`ROC AUC: 0.831`
 
-**Accuracy (~0.78):** This is the proportion of true results (both true positives and true negatives) among the total number of cases examined. An accuracy of approximately 77% means that the model correctly predicts the outcome 77% of the time, which is generally good.
+**Accuracy (~0.75):** This is the proportion of true results (both true positives and true negatives) among the total number of cases examined. An accuracy of approximately 75% means that the model correctly predicts the outcome 77% of the time, which is generally good.
 
-**Precision (~0.78):** Precision is the ratio of true positives to the sum of true and false positives. It indicates the quality of the positive class predictions. A precision of 77% means that when the model predicts the positive class, it is correct about two-thirds of the time. This is decent but suggests some room for improvement in reducing false positives.
+**Precision (~0.73):** Precision is the ratio of true positives to the sum of true and false positives. It indicates the quality of the positive class predictions. A precision of 73% means that when the model predicts the positive class, it is correct about two-thirds of the time. This is decent but suggests some room for improvement in reducing false positives.
 
 **Recall (~0.8):** Recall, or sensitivity, measures the proportion of actual positives that are correctly identified. A recall of 80% means the model identifies 80% of all actual positive cases.
 
-**F1 Score (~0.79):** The F1 score is the harmonic mean of precision and recall, providing a single metric to assess the balance between them. An F1 score of 60% is moderate, indicating that there is a balance but also room for improvement in both precision and recall.
+**F1 Score (~0.77):** The F1 score is the harmonic mean of precision and recall, providing a single metric to assess the balance between them. An F1 score of 77% is moderate, indicating that there is a balance but also room for improvement in both precision and recall.
 
-**Log Loss (~0.48):** Log loss measures the performance of a classification model where the prediction is a probability value between 0 and 1. A lower log loss indicates a better model. A log loss of about 0.48 means that, on average, the model's probability estimates are fairly well-calibrated.
+**Log Loss (~0.51):** Log loss measures the performance of a classification model where the prediction is a probability value between 0 and 1. A lower log loss indicates a better model. A log loss of about 0.51 means that, on average, the model's probability estimates are fairly well-calibrated.
 
-**ROC AUC (~0.85):** The Area Under the Receiver Operating Characteristic Curve (ROC AUC) measures the ability of a model to distinguish between classes. An AUC of 0.85 is quite good, indicating a high level of separability, meaning the model is well capable of distinguishing between the positive and negative classes.
+**ROC AUC (~0.83):** The Area Under the Receiver Operating Characteristic Curve (ROC AUC) measures the ability of a model to distinguish between classes. An AUC of 0.83 is quite good, indicating a high level of separability, meaning the model is well capable of distinguishing between the positive and negative classes.
 
 **Conclusion**
 These values suggest that the model performs reasonably well in general terms. It has a high ROC AUC score, suggesting good discriminative ability, and a fair balance between precision and recall as reflected in the F1 score. The accuracy is also relatively high. The log loss indicates how closely the probability predictions of the model match the actual outcomes.
@@ -392,12 +392,12 @@ These are the output of the model based on train & test data.
 </table>
 
 **Accuracy Metrics:**\
-`Accuracy: 0.7155080213903743`\
-`Precision: 0.7049180327868853`\
-`Recall: 0.7881873727087576`\
-`F1 Score: 0.7442307692307694`\
-`Log Loss: 2.1274260218784002`\
-`ROC AUC: 0.7778481128786627`
+`Accuracy: 0.716`\
+`Precision: 0.670`\
+`Recall: 0.795`\
+`F1 Score: 0.739`\
+`Log Loss: 2.209`\
+`ROC AUC: 0.773`
 
 <hr>
 
@@ -418,12 +418,12 @@ These are the output of the model based on train & test data.
 <img src="Images/AML_RF_Top.png" alt="Image" width="1200"/>
 
 **Accuracy Metrics:**\
-`Accuracy: 0.774331550802139`\
-`Precision: 0.7692307692307693`\
-`Recall: 0.814663951120163`\
-`F1 Score: 0.7912957467853612`\
-`Log Loss: 0.49762968802004315`\
-`ROC AUC: 0.8421450982550779`
+`Accuracy: 0.752`\
+`Precision: 0.733`\
+`Recall: 0.801`\
+`F1 Score: 0.766`\
+`Log Loss: 0.507`\
+`ROC AUC: 0.832`
 
 <hr>
 
@@ -447,33 +447,7 @@ Also, the Top & Bottom 3 weights identified by the `Logistic Regression` Model w
 <hr> 
 
 ## 8 - Recommendation
-### 8.1 - Machine Learning
-Based on our classification tree, It is recommended for telco companies to offer discount to customer who choose a two year contract as it has a negative relation with Churn and is fairly accurate in predicting Churn. Discount can also be offered to those who choose one year contract so more customers will be bound by the contract.
-
-In the mean time, in order to increase their customer retention level, companies can include features such as online backup and online security.
-
-Lastly, it was no surprise that contract term is most accurate in predicting Churn as this signifies this measures customer loyalty. Having a short contract term will provide them with the greatest convenience to change telco companies whenever a more attractive contract is shown to them.
-
-Companies can add in a time series to track the customer's information over time so as to increase the accuracy of the prediction and helping companies make more informed decisions and improve their business model. 
-<hr> 
-
-### 8.2 - Additional Machine Learning
-Use our Logistic Regression model to help predict the likelihood of customer churn based on current data. The Telco Company may consider giving vouchers or rebates to retain high-risk customers who are likely to churn.
-
-Also, the Telco Company should compare the following areas against other Telco Companies and aim to provide more attractive deals at competitive pricing:
-1) Monthly Charges
-2) Month-to-Month Contracts
-3) Fiber Optic Internet Services
-
-This is because these were the top metrics associated with customers who churn, meaning the Telco Company is losing out to its competitors.
-
-On the other hand, they should also note that they are doing very well in the following areas:
-1) Long Customer Tenure
-2) Two Year Contracts
-3) DSL Internet Services
-
-### 8.3 Overall Recommendation:
-In conclusion, leveraging our Linear Regression model together with our classification tree empowers companies to accurately predict the  variables within a contract that significantly influence customer contract renewals. By analyzing their extensive customer database and corresponding contracts, companies can pinpoint these crucial variables. It is vital for companies to strike a balance between a variable's importance in preventing customer churn (as determined by Linear Regression) and its accuracy in predicting churn (as assessed by the classification tree). Additionally, this approach offers valuable insights into areas for contract improvement, guiding companies on how and where to refine their offers to achieved higher customer satisfaction and retention.
+In conclusion, leveraging our Linear Regression model together with our Classification Tree empowers companies to accurately predict the variables within a contract that significantly influence customer contract renewals. By analyzing their extensive customer database and corresponding contracts, companies can pinpoint these crucial variables. Companies need to strike a balance between a variable's importance in preventing customer churn (as determined by Linear Regression) and its accuracy in predicting churn (as assessed by the classification tree). Additionally, this approach offers valuable insights into areas for contract improvement, guiding companies on how and where to refine their offers to achieve higher customer satisfaction and retention.
 
 <hr>
 
@@ -490,4 +464,3 @@ The project was more challenging than expected as it was much more in-depth comp
 
 ### 9.3 - Lorayne 
 This project has provided me with the opportunity to delve deeper into the telco industry and the features that customers look out for before signing a contract. I also have a deeper understanding of our these telco companies work. This project has allowed me to apply the various techniques taught to us to extract useful insights from the large volumes of data. From there, we can discover meaningful patterns and useful insights to support decision-making in the business world.
-
