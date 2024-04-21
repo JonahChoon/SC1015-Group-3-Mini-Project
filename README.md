@@ -13,7 +13,7 @@ This Project is Done By: Jonah Choon, Lee Jia Xuan, Lorayne Lim
 - Additional Machine Learning (Logistic Regression, K-Nearest Neighbours, Random Forest)
 - Recommendation
 - What We Learnt [Full Reflection in: [Project Walkthrough.md](Project%20Walkthrough.md)]
-- Group Report
+- Project Walkthrough
 
 <hr> 
 
@@ -107,6 +107,8 @@ In conclusion, leveraging our Linear Regression model together with our Classifi
 - What We Learnt/Reflection (All)
 - File Management and Formatting (Jonah)
 - Video Editing (Jia Xuan)
+
+<hr> 
 
 ## 11 - Project Walkthrough
 For more detailed explaination do view our Project Walkthrough in [here](Project%20Walkthrough.md)
