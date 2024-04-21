@@ -5,7 +5,6 @@ This Project is Done By: Jonah Choon, Lee Jia Xuan, Lorayne Lim
 
 ## 1 - Table of Content
 - Problem Definition
-- Problem Definition
 - Machine Learning Models
 - Understanding the Dataset
 - Exploratory Data Analysis
