@@ -24,7 +24,7 @@ In today's fast-changing telecommunications industry, the battle for customer lo
 
 <hr>
 
-## 3 - Machine Learning Models Used:
+## 3 - Machine Learning Models Used: [README](README.md#MachineLearning) <a name=MachineLearning>
 - Binary Classification Tree
 - Logical Regression
 - K-Nearest Neighbours
