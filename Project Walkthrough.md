@@ -33,16 +33,16 @@ This Project is Done By: Jonah Choon, Lee Jia Xuan, Lorayne Lim
   — Binary Tree Classification (All variables from downsampled data VS Churn)
   — Summary on the 2 Binary Tree Classification Models
 - Additional Machine Learning
-  — Data Preparation
-  — Logistic Regression
-  — K-Nearest Neighbours
-  — Random Forest
-  — Summary on the 3 Machine Learning Models
+  - Data Preparation
+  - Logistic Regression
+  - K-Nearest Neighbours
+  - Random Forest
+  - Summary on the 3 Machine Learning Models
 - Recommendation
 - Reflection
-  — Jonah
-  — Jia Xuan
-  — Lorayne
+  - Jonah
+  - Jia Xuan
+  - Lorayne
 
 
 <hr> 
