@@ -4,6 +4,16 @@ This Project is Done By: Jonah Choon, Lee Jia Xuan, Lorayne Lim
 <hr> 
 
 ## 1 - Table of Content
+- Marking Rubrics
+- Problem Definition
+- Understanding the Dataset
+  - User Information
+  - Service Information
+  - Contract and Payment Information
+  - Prediction Target
+- Exploratory Data Analysis
+  - Data Preparation
+    - asd
 Problem Definition [[ReadMe.md](ReadMe.md)] \
 Data Preparation & Data-Driven Insights [[Exploratory Data Analysis](Jupyter%20Notebooks/1%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb), [Machine Learning](Jupyter%20Notebooks/2%20-%20Machine%20Learning.ipynb), [Additional Machine Learning](Jupyter%20Notebooks/3%20-%20Additional%20Machine%20Learning%20(Logistic%20Regression,%20K%20Nearest%20Neighbours,%20Random%20Forest).ipynb)] \
 Exploratory Data Analysis [[Exploratory Data Analysis](Jupyter%20Notebooks/1%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)] \
