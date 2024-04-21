@@ -13,7 +13,14 @@ This Project is Done By: Jonah Choon, Lee Jia Xuan, Lorayne Lim
   - Prediction Target
 - Exploratory Data Analysis
   - Data Preparation
-    - asd
+    - Cleaning (Remove all NULL Values)
+    - Transformation (Converting Category to Numerical)
+  - Churn Data (Exploratory Data Analysis)
+  - Further Analysis of the Numeric Values (Tenure, MonthlyCharges & TotalCharges)
+  - Checking the Outliers of the data (Tenure, MonthlyCharges & TotalCharges)
+  - Correlation to Churn with other Category
+  - Summary on Exploratory Data Analysis
+
 Problem Definition [[ReadMe.md](ReadMe.md)] \
 Data Preparation & Data-Driven Insights [[Exploratory Data Analysis](Jupyter%20Notebooks/1%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb), [Machine Learning](Jupyter%20Notebooks/2%20-%20Machine%20Learning.ipynb), [Additional Machine Learning](Jupyter%20Notebooks/3%20-%20Additional%20Machine%20Learning%20(Logistic%20Regression,%20K%20Nearest%20Neighbours,%20Random%20Forest).ipynb)] \
 Exploratory Data Analysis [[Exploratory Data Analysis](Jupyter%20Notebooks/1%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)] \
@@ -187,7 +194,7 @@ In analyzing customer churn, I've decided to concentrate on characteristics that
 
 Conversely, features with correlation coefficients less than 0.25 exhibit a mix of positive and negative relationships with churn and will be excluded from this phase of analysis. While these attributes may still influence churn, their effects are likely more subtle and may require complex modeling to decipher their true impact on customer retention. This approach allows for a more streamlined and focused analysis on the most influential factors driving churn.
 
-### 5.6 - Summary on Exploratory Data Analysis:
+### 5.6 - Summary on Exploratory Data Analysis
 The EDA phase has set the stage by identifying key factors that significantly correlate with customer churn. With these insights in hand, machine learning will take over to further dissect and quantify these relationships. Leveraging sophisticated algorithms, the machine learning process will aim to build predictive models that can accurately forecast the likelihood of churn for individual customers.
 
 The transition from EDA to machine learning represents a shift from hypothesis-driven analysis to prediction-based modeling. By feeding the refined dataset—highlighted by strong predictors of churn—into various machine learning models, we'll be able to validate the initial findings and potentially unveil more complex patterns that EDA alone could not decipher. Machine learning's ability to handle vast amounts of data and learn from it means that not only will it corroborate the findings from EDA, but it will also enhance them, providing a more nuanced understanding of customer behavior.
