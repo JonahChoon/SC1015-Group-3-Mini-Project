@@ -33,7 +33,7 @@ In today's fast-changing telecommunications industry, the battle for customer lo
 
 <hr> 
 
-## 4 - Understanding the Dataset [[Introduction](Jupyter%20Notebooks/1%20-%20Introduction.ipynb)]
+## 4 - Understanding the Dataset [[Jupyter Notebook](Jupyter%20Notebooks/1%20-%20Introduction.ipynb)]
 The dataset we will be using is from an IBM Sample Dataset for Telco Customer Churn, available on Kaggle (https://www.kaggle.com/blastchar/telco-customer-churn).
 
 <center><img src="Images/DataPrep.png" alt="Data Preparation"></center>
@@ -48,7 +48,7 @@ There are 4 groups of information present:
 
 <hr> 
 
-## 5 - Exploratory Data Analysis (EDA) [[Exploratory Data Analysis](Jupyter%20Notebooks/2%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)]
+## 5 - Exploratory Data Analysis (EDA) [[Jupyter Notebook](Jupyter%20Notebooks/2%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)]
 Exploratory Data Analysis aims to analyze datasets and summarize their main characteristics, using statistical graphics and other data visualization methods. 
 
 I Sorted the columns into 3 main section (User Information, Services Information and Contract & Payment Information) and plotted each Catagory against Churn, followed by a further analysis of the Numeric Values (Tenure, MonthlyCharges & TotalCharges) to view the characterstics and ended off with a Correlation to Churn with other Categories
@@ -59,7 +59,7 @@ After Data Preparation, I ensured that the dataset was ready for analysis by met
 
 <hr>
 
-## 6 - Machine Learning [[Machine Learning](Jupyter%20Notebooks/3%20-%20Machine%20Learning.ipynb)]
+## 6 - Machine Learning [[Jupyter Notebook](Jupyter%20Notebooks/3%20-%20Machine%20Learning.ipynb)]
 This ML model aims to identify which variables are most accurate in predicting whether a customer Churns. These variables are selected based on two aspects:
 
 - Comparison 1: The top 3 variables that show the strongest positive and negative correlations with churn (based on Correlation graph)
@@ -71,7 +71,7 @@ Therefore, classification trees which uses the variables' rankings in the correl
 
 <hr>
 
-## 7 - Additional Machine Learning [[Additional Machine Learning](Jupyter%20Notebooks/4%20-%20Additional%20Machine%20Learning%20(Logistic%20Regression%2C%20K%20Nearest%20Neighbours%2C%20Random%20Forest).ipynb)]
+## 7 - Additional Machine Learning [[Jupyter Notebook](Jupyter%20Notebooks/4%20-%20Additional%20Machine%20Learning%20(Logistic%20Regression%2C%20K%20Nearest%20Neighbours%2C%20Random%20Forest).ipynb)]
 The following additional Machine Learning models were trained on train (75%) and test (25%) data:
 - Logistical Regression
 - K-Nearest Neighbours
