@@ -15,7 +15,7 @@ This Project is Done By: Jonah Choon, Lee Jia Xuan, Lorayne Lim
 
 <hr> 
 
-## 2 - Problem Definition [Project Walkthrough](Project%20Walkthrough.md#ProblemDefinition)
+## 2 - Problem Definition [[Project Walkthrough](Project%20Walkthrough.md#ProblemDefinition)]
 In today's fast-changing telecommunications industry, the battle for customer loyalty and retention has become increasingly fierce. Telcos are continually innovating and offering attractive deals to entice potential customers, leading to a growing concern around customer churn. Studies have shown acquiring a new customer can cost five to twenty-five times more than retaining an existing customer (Singh & Khan, 2018). Furthermore, increasing customer retention by 5% can increase profits from 25-95% (Gallo, 2014). Hence, high customer retention rates greatly impacts a telco's business. As the allure of competitive deals tempts customers to switch providers, it has become imperative to delve into the reasons behind this trend. Therefore, our aim is to uncover the motivations driving customers to switch telco companies and develop predictive models that can anticipate the likelihood of existing customers changing their provider. By gaining insights into these dynamics, telcos can proactively implement strategies to retain their customers before they consider switching.
 
 ## References
@@ -24,7 +24,7 @@ In today's fast-changing telecommunications industry, the battle for customer lo
 
 <hr>
 
-## 3 - Machine Learning Models Used: [README](README.md#MachineLearning) <a name=MachineLearning>
+## 3 - Machine Learning Models Used [[README](README.md)]
 - Binary Classification Tree
 - Logical Regression
 - K-Nearest Neighbours
@@ -32,7 +32,7 @@ In today's fast-changing telecommunications industry, the battle for customer lo
 
 <hr> 
 
-## 4 - Understanding the Dataset
+## 4 - Understanding the Dataset [[Introduction](Jupyter%20Notebooks/1%20-%20Introduction.ipynb)]
 The dataset we will be using is from an IBM Sample Dataset for Telco Customer Churn, available on Kaggle (https://www.kaggle.com/blastchar/telco-customer-churn).
 
 <center><img src="Images/DataPrep.png" alt="Data Preparation"></center>
@@ -47,7 +47,7 @@ There are 4 groups of information present:
 
 <hr> 
 
-## 5 - Exploratory Data Analysis (EDA)
+## 5 - Exploratory Data Analysis (EDA) [[Exploratory Data Analysis](Jupyter%20Notebooks/2%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)]
 Exploratory Data Analysis aims to analyze datasets and summarize their main characteristics, using statistical graphics and other data visualization methods. 
 
 I Sorted the columns into 3 main section (User Information, Services Information and Contract & Payment Information) and plotted each Catagory against Churn, followed by a further analysis of the Numeric Values (Tenure, MonthlyCharges & TotalCharges) to view the characterstics and ended off with a Correlation to Churn with other Categories
@@ -58,7 +58,7 @@ After Data Preparation, I ensured that the dataset was ready for analysis by met
 
 <hr>
 
-## 6 - Machine Learning
+## 6 - Machine Learning [[Machine Learning](Jupyter%20Notebooks/3%20-%20Machine%20Learning.ipynb)]
 This ML model aims to identify which variables are most accurate in predicting whether a customer Churns. These variables are selected based on two aspects:
 
 - Comparison 1: The top 3 variables that show the strongest positive and negative correlations with churn (based on Correlation graph)
@@ -70,7 +70,7 @@ Therefore, classification trees which uses the variables' rankings in the correl
 
 <hr>
 
-## 7 - Additional Machine Learning
+## 7 - Additional Machine Learning [[Additional Machine Learning](Jupyter%20Notebooks/4%20-%20Additional%20Machine%20Learning%20(Logistic%20Regression%2C%20K%20Nearest%20Neighbours%2C%20Random%20Forest).ipynb)]
 The following additional Machine Learning models were trained on train (75%) and test (25%) data:
 - Logistical Regression
 - K-Nearest Neighbours
@@ -84,19 +84,19 @@ The Top and Bottom 3 weights identified by the Logistic Regression Model will be
 
 <hr> 
 
-## 8 - Recommendation
+## 8 - Recommendation [[Machine Learning](Jupyter%20Notebooks/3%20-%20Machine%20Learning.ipynb), [Additional Machine Learning](Jupyter%20Notebooks/4%20-%20Additional%20Machine%20Learning%20(Logistic%20Regression%2C%20K%20Nearest%20Neighbours%2C%20Random%20Forest).ipynb)]
 In conclusion, leveraging our Linear Regression model together with our Classification Tree empowers companies to accurately predict the variables within a contract that significantly influence customer contract renewals. By analyzing their extensive customer database and corresponding contracts, companies can pinpoint these crucial variables. Companies need to strike a balance between a variable's importance in preventing customer churn (as determined by Linear Regression) and its accuracy in predicting churn (as assessed by the classification tree). Additionally, this approach offers valuable insights into areas for contract improvement, guiding companies on how and where to refine their offers to achieve higher customer satisfaction and retention.
 
 <hr>
 
-## 9 - What We Learnt
+## 9 - What We Learnt [[Project Walkthrough](Project%20Walkthrough.md#reflection)]
 - A macro-to-micro view of the dataset allows us to understand how each datatype influences churn​
 - Using different ML models​
 - Connecting theoretical concepts from the classroom with practical application in our project
 
 <hr>
 
-## 10 - Contributors
+## 10 - Contributors [[README](README.md)]
 - Problem Definition (All)
 - Exploratory Data Analysis (Jonah)
 - Machine Learning [Binary Classification Tree] (Lorayne)
