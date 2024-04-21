@@ -25,7 +25,7 @@ In today's fast-changing telecommunications industry, the battle for customer lo
 
 <hr>
 
-## 3 - Machine Learning Models Used [[README](README.md)]
+## 3 - Machine Learning Models Used
 - Binary Classification Tree
 - Logical Regression
 - K-Nearest Neighbours
@@ -90,14 +90,14 @@ In conclusion, leveraging our Linear Regression model together with our Classifi
 
 <hr>
 
-## 9 - What We Learnt [[Project Walkthrough](Project%20Walkthrough.md#reflection)]
+## 9 - What We Learnt [Full Reflection in: [Project Walkthrough](Project%20Walkthrough.md#reflection)]
 - A macro-to-micro view of the dataset allows us to understand how each datatype influences churn​
 - Using different ML models​
 - Connecting theoretical concepts from the classroom with practical application in our project
 
 <hr>
 
-## 10 - Contributors [[README](README.md)]
+## 10 - Contributors
 - Problem Definition (All)
 - Exploratory Data Analysis (Jonah)
 - Machine Learning [Binary Classification Tree] (Lorayne)
