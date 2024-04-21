@@ -21,17 +21,17 @@ This Project is Done By: Jonah Choon, Lee Jia Xuan, Lorayne Lim
   - Correlation to Churn with other Category
   - Summary on Exploratory Data Analysis
 - Machine Learning
-  — Data Preparation
-  — Determining variables used for comparison
-  — Binary Tree Classification (variables based on correlation graph)
+  - Data Preparation
+  - Determining variables used for comparison
+  - Binary Tree Classification (variables based on correlation graph)
     - Contract VS Churn
     - Tenure VS Churn
     - OnlineSecurity VS Churn
     - OnlineBackup VS Churn
     - TechSupport VS Churn
   - Analysis of data
-  — Binary Tree Classification (All variables from downsampled data VS Churn)
-  — Summary on the 2 Binary Tree Classification Models
+    - Binary Tree Classification (All variables from downsampled data VS Churn)
+    - Summary on the 2 Binary Tree Classification Models
 - Additional Machine Learning
   - Data Preparation
   - Logistic Regression
@@ -43,7 +43,6 @@ This Project is Done By: Jonah Choon, Lee Jia Xuan, Lorayne Lim
   - Jonah
   - Jia Xuan
   - Lorayne
-
 
 <hr> 
 
