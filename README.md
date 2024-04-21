@@ -110,4 +110,4 @@ In conclusion, leveraging our Linear Regression model together with our Classifi
 <hr> 
 
 ## 11 - Project Walkthrough
-For more detailed ![image](https://github.com/JonahChoon/SC1015-Group-3-Mini-Project/assets/160763087/d3312de3-0e31-4d36-b7a8-abf42181d33b), do view our Project Walkthrough in [here](Project%20Walkthrough.md)
+For more detailed explanation, do view our Project Walkthrough in [here](Project%20Walkthrough.md)
