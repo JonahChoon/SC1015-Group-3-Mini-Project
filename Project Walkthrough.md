@@ -23,7 +23,7 @@ Additional Machine Learning (Logistic Regression, K-Nearest Neighbours, Random F
 
 <hr> 
 
-## 3 - Problem Definition
+## 3 - Problem Definition <a name=ProblemDefinition>
 ## Problem Definition:
 In the fast-changing telco industry, customer retention is a rising issuing issue as competing telcos offer more attractive deals to lure potential customers. Hence, we wish to understand why customers switch telco companies and aim to predict the likelihood of existing customers changing their telco provider so that telcos can implement changes to retain customers before it is too late. 
 
