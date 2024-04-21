@@ -450,7 +450,7 @@ In conclusion, leveraging our Linear Regression model together with our Classifi
 
 <hr>
 
-## 9 - Reflection 
+## 9 - Reflection <a name=reflection>
 ### 9.1 - Jonah 
 This project enhanced my understanding of data analysis by bridging classroom theory and applying it to our project. Navigating through large datasets to identify characteristics influencing client retention was both difficult and enjoyable. It emphasized the importance of initiatives based on data in increasing corporate competitiveness and operational efficiency. This experience not only improved my analytical skills, but also sparked my curiosity in the real-world implications of data science.
 
